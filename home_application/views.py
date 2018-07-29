@@ -17,7 +17,6 @@ def hellotest(request):
     :param request
     :return
     """
-    print "helloooooooooo"
     return render_mako_context(request, '/home_application/hellotest.html')
 
 def home(request):
